@@ -1,8 +1,7 @@
 {
   "name": "ember-cli-i18n-lazy-lookup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -10,11 +9,14 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bookingsync/ember-cli-i18n-lazy-lookup"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Sebastien Grosjean",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",
@@ -34,5 +36,14 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "dependencies": {
+    "broccoli-i18n-lazy-lookup": "0.0.1"
+  },
+  "description": "This README outlines the details of collaborating on this Ember addon.",
+  "bugs": {
+    "url": "https://github.com/bookingsync/ember-cli-i18n-lazy-lookup/issues"
+  },
+  "homepage": "https://github.com/bookingsync/ember-cli-i18n-lazy-lookup",
+  "main": "index.js"
 }
