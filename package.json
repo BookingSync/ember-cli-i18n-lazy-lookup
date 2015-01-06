@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-i18n-lazy-lookup",
-  "version": "0.0.4",
+  "version": "0.0.4.9",
   "directories": {
     "test": "tests"
   },
@@ -38,7 +38,7 @@
     "configPath": "tests/dummy/config"
   },
   "dependencies": {
-    "broccoli-i18n-lazy-lookup": "0.0.3"
+    "broccoli-i18n-lazy-lookup": "0.0.4"
   },
   "description": "This README outlines the details of collaborating on this Ember addon.",
   "bugs": {
